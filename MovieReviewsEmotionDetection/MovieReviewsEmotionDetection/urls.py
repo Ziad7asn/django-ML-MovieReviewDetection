@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from MovieReviewsEmotionDetection.views import predict 
+from imdb_predict.views import predict 
 
 urlpatterns = [
     
